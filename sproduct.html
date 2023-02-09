@@ -34,7 +34,7 @@
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+            <img width="100%" alt="" id="MainImg">
     
             <div class="small-img-group">
                 <div class="small-img-col">
@@ -232,6 +232,13 @@
         rechargeMain(2);
         rechargeMain(3);
 
+        window.addEventListener('load', () => {
+            const imgGotten = localStorage.getItem('IMAGE');
+
+            console.log(imgGotten);
+
+            MainImg.src = imgGotten;
+        });
     </script>
 
     <script src="script.js"></script>
