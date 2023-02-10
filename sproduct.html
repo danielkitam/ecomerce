@@ -237,10 +237,15 @@
 
             console.log(imgGotten);
 
-            MainImg.src = imgGotten;
+            let setMain = MainImg.setAttribute('scr', imgGotten.getAttribute('src'));
+
+            //MainImg.src = imgGotten;
+
+            MainImg = setMain;
         });
     </script>
 
     <script src="script.js"></script>
+
 </body>
 </html>
