@@ -10,17 +10,17 @@ const product = document.querySelector('.pro');
 
 // product.addEventListener('click', productHandler);
 
-if(bar) {
+if (bar) {
     bar.addEventListener('click', () => {
-       // navBar.style.right = 0;
-       navBar.classList.add('active');
+        // navBar.style.right = 0;
+        navBar.classList.add('active');
     });
 }
 
-if(closeIcon) {
+if (closeIcon) {
     closeIcon.addEventListener('click', () => {
-       // navBar.style.right = '-350px';
-       navBar.classList.remove('active');
+        // navBar.style.right = '-350px';
+        navBar.classList.remove('active');
     });
 }
 
