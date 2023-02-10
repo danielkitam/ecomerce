@@ -188,4 +188,26 @@ export const products = [
             }
         ]
     },
+    {
+        company: "adidas",
+        id: "0.9471612397332fcgzGrcXlhmPMHLghyyyyt",
+        title: "Astronaut T-Shirts",
+        price: 50,
+        imageUrl: "img/products/f1.jpg",
+        detailsImages: [
+            {
+                url: "img/products/f1.jpg",
+            },
+            {
+                url: "img/products/f2.jpg",
+            },
+            {
+                url: "img/products/f3.jpg"
+            },
+            {
+                url: "img/products/f4.jpg"
+            }
+        ]
+    },
+
 ]
